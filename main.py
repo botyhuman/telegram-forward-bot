@@ -5,6 +5,7 @@ import logging
 import sys
 import os
 import urllib.request
+from telethon import TelegramClient, events
 
 # Configure logging
 logging.basicConfig(
@@ -18,8 +19,6 @@ keep_alive()
 time.sleep(3)  # Give server more time to start
 
 # Telegram bot code starts from here
-from telethon import TelegramClient, events
-
 api_id = 28224513
 api_hash = "0a0349ff911e6a1adf144c00d99f668"
 session_name = "bot"
