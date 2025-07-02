@@ -42,4 +42,3 @@ while True:
     except Exception as e:
         logger.error(f"Error occurred: {e}")
         time.sleep(5)
-￼Enter
